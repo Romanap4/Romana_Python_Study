@@ -30,7 +30,7 @@ while is_running:
             print(f"CORRECT! The answer was {answer}")
             print(f"Number of guesses: {guesses}")
             is_runing = False
-            
+
     else:
         print("Invalid guess")
         print(f"Please select a number between {lowest_num} and {highest_num}")

@@ -20,10 +20,10 @@
 #             return "It is Saturday"
 #         case _:
 #             return "Not a valid day"
-    
+
 # print(day_of_week (1))
 
-# def is_weekend(day):                
+# def is_weekend(day):     
 #     match day:
 #         case "Sunday":
 #             return True
@@ -44,7 +44,7 @@
 
 # to make it shorter:
 
-def is_weekend(day):                         # | = "or" logical operator                  
+def is_weekend(day):                         # | = "or" logical operator
     match day:
         case "Saturday" | "Sunday":
             return True
@@ -52,5 +52,5 @@ def is_weekend(day):                         # | = "or" logical operator
             return False
         case _:
             return False
-    
+
 print(is_weekend("Monday"))

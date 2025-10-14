@@ -76,5 +76,3 @@ elif roulette == 35:
     print("35, black")
 elif roulette == 36:
     print("36, red")
-
-

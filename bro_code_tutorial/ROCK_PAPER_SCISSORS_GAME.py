@@ -24,7 +24,7 @@ while running:
         print("You win!")
     elif player == "scissors" and computer == "paper":
         print("You win!")
-    else: 
+    else:
         print("You lose!")
 
     # play_again = input("Play again? (y/n): ").lower()  # too many variabes; there is another way
@@ -35,6 +35,3 @@ while running:
         running = False
 
 print("Thanks for playing!")
-
-
-

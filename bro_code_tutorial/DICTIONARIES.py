@@ -12,7 +12,7 @@ capitals = {"USA": "Washington D.C.",
 
 # if capitals.get("Japan"):               # use to check if a key is within our dictionary
 #     print("That capital exists")
-# else: 
+# else:
 #     print("That capital doesn't exist")
 
 # capitals.update({"Germany": "Berlin"})  # use update to insert a new or update an existing {key:value} pair

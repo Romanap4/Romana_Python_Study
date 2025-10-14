@@ -7,7 +7,7 @@
 #     print(number)
 
 # for number in reversed(numbers):                        # iterating backwards
-#     print(number, end=" ")                              # keyword "end" within the print function replacing a newline          
+#     print(number, end=" ")                              # keyword "end" within the print function replacing a newline
 
 # TUPLES
 # numbers = (1, 2, 3, 4, 5)

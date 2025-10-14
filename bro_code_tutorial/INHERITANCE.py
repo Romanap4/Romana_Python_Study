@@ -13,7 +13,6 @@ class Animal:
     def sleep(self):
         print(f"{self.name} is asleep.")
 
-
 # adding the inheritance list in the set of parenthesis
 
 class Dog(Animal):

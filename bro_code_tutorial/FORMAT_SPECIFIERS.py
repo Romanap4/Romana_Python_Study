@@ -7,7 +7,7 @@
 # :< = left justify
 # :> = right justify
 # :^ = center align
-# :+ = use a plus sign to indicate positive value 
+# :+ = use a plus sign to indicate positive value
 # := = place sign to leftmost position
 # : = insert a space before positive numbers
 # :, = comma separator

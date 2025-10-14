@@ -10,7 +10,6 @@ print(f"Hello {first_name}")     #f means f-string --> easiest way to display a 
 print(f"You like {food}")
 print(f"Your email is: {email}")
 
-
 #Integers
 age = 34
 quantity = 3
@@ -43,10 +42,10 @@ else:
 
 if for_sale:
     print("That item is for sale.")
-else: 
+else:
     print("That item is not available.")
 
 if is_online:
     print("You are online.")
-else: 
+else:
     print("You are offline.")

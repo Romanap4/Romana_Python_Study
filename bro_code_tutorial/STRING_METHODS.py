@@ -2,7 +2,7 @@
 # phone_num = input("Enter your phone number: ")
 
 # result = len(name)          # length function = returns the length of a string (the number of characters); returns an integer
-# result = name.find("M")     # find method = returns the first occurence of a given character (position); starts at index 0                  
+# result = name.find("M")     # find method = returns the first occurence of a given character (position); starts at index 0
 # result = name.rfind("a")    # reverse find method = returns the last occurence of a given character
 # if Python (rfind method) cannot find a given character, it will return -1 result
 # name = name.capitalize()    # capitalize function = capitalizes the first character in a string

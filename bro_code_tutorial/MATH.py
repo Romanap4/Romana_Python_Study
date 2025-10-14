@@ -50,8 +50,6 @@ z = 9.9
 
 # circumference of a circle
 
-# import math
-
 # radius = float(input("Enter the radius of a circle: "))
 
 # circumference = 2 * math.pi * radius
@@ -60,8 +58,6 @@ z = 9.9
 
 # area of a circle
 
-# import math
-
 # radius = float(input("Enter the radius of a circle: "))
 
 # area = math.pi * pow(radius, 2)
@@ -69,8 +65,6 @@ z = 9.9
 # print(f"The area of the circle is: {round(area, 2)}cm^2")
 
 # hypothenuse calculator
-
-import math
 
 a = float(input("Enter side A: "))
 b = float(input("Enter side B: "))

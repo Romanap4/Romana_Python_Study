@@ -11,7 +11,7 @@ class Company:
         def __init__(self, name, position):
             self.name = name
             self.position = position
-        
+
         def get_details(self):
             return f"{self.name} {self.position}"
 
@@ -46,8 +46,6 @@ for employee in company2.list_employees():
 # print(company.list_employees())
 
 #         print("This is the first class.")
-
-
 
 # class Nonprofit:
 #     class Employee:

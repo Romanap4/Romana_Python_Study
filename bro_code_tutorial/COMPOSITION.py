@@ -1,8 +1,8 @@
-# Aggregation = A relationship where one object contains references to other INDEPENDENT objects 
+# Aggregation = A relationship where one object contains references to other INDEPENDENT objects
 #               "has-a" relationship
 
 # Composition = The composed object directly owns its components, which cannot exist independently
-#               "owns-a" relationship 
+#               "owns-a" relationship
 
 class Engine:
     def __init__(self, horse_power):

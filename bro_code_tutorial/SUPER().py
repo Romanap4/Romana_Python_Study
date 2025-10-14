@@ -1,7 +1,7 @@
 # super() = Function used in a child class to call methods from a parent class (superclass).
 #           Allows you to extend the functionality of the inherited methods.
 
-# ternary operator? 
+# ternary operator?
 
 class Shape:
     def __init__(self, color, is_filled):
@@ -23,7 +23,6 @@ class Circle(Shape):
     def describe(self):
         print(f"It is a circle with an area of {3.14 * self.radius * self.radius}cm^2")
         super().describe()                  # extending the functionality of the describe method; the order doesn't matter
-        
 
 class Square(Shape):
     def __init__(self, color, is_filled, width):
@@ -71,4 +70,3 @@ print(triangle.color)
 print(triangle.is_filled)
 print(f"{triangle.width}cm")
 print(f"{triangle.height}cm")
-

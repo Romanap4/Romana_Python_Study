@@ -82,6 +82,5 @@ def main():
             print("YOU LOSE!")
             is_running = False
 
-
 if __name__ == '__main__':
     main()

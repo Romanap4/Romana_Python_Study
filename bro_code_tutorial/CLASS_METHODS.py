@@ -15,12 +15,12 @@ class Student:
     # INSTANCE METHOD
     def get_info(self):
         return f"{self.name} {self.gpa}"
-    
+
     # CLASS METHOD
     @classmethod
     def get_count(cls):
         return f"Total number of students: {cls.count}"
-    
+
     @classmethod
     def get_average_gpa(cls):
         if cls.count == 0:
@@ -34,5 +34,3 @@ student1 = Student("Pugsley", 2.0)
 
 print(Student.get_count())
 print(Student.get_average_gpa())
-
-

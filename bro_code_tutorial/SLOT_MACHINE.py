@@ -9,7 +9,7 @@ def spin_row():
     symbols = ["🍒", "🍉", "🍋", "🔔", "⭐"]
 
     return [random.choice(symbols) for _ in range(3)]
-    
+
 #     results = []                                       # alternative to a list comprehension
 #     for symbol in range(3):
 #         results.append(random.choice(symbols))
@@ -19,7 +19,6 @@ def print_row(row):
     print("+++++++++++++")
     print(" | ".join(row))
     print("+++++++++++++")
-
 
 def get_payout(row, bet):
     if row[0] == row[1] == row[2]:
@@ -35,10 +34,9 @@ def get_payout(row, bet):
             return bet * 20
     return 0
         
-
 def main():
     balance = 100
-    
+
     print("+++++++++++++++++++++++++")
     print("Welcome to Python Slots  ")
     print("Symbols: 🍒 🍉 🍋 🔔 ⭐")
@@ -75,18 +73,17 @@ def main():
             print(f"You won ${payout}")
         else:
             print("Sorry, you lost this round")
-        
+
         balance += payout
 
         play_again = input("Do you want to spin again? (Y/N): ").upper()
 
         if play_again != "Y":
             break
-    
+
     print("+++++++++++++++++++++++++++++++++++++")
     print(f"Game over! Your final balance is ${balance}")
     print("+++++++++++++++++++++++++++++++++++++")
 
 if __name__ == '__main__':
     main()
-

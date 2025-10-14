@@ -2,13 +2,13 @@
 #                  They can contain abstract methods, which are declared but have no implementation.
 #                  Abstract classes benefits: 
 #                  1. Prevents instantiation of the class itself
-#                  2. Requires children to use inherited abstract methods 
+#                  2. Requires children to use inherited abstract methods
 
 from abc import ABC, abstractmethod                                    # abc = abstract base classes
-                                                                       # @ = decorator, declarator?
+                                                                       # @ = decorator
 class Vehicle(ABC):
-    
-    @abstractmethod        
+
+    @abstractmethod
     def go(self):
         pass
     
@@ -16,7 +16,7 @@ class Vehicle(ABC):
     def stop(self):
         pass
 
-# abstract methods are declared, but not defined; 
+# abstract methods are declared, but not defined;
 # we will define them within each of the subclasses that inherit from the abstract class
 
 class Car(Vehicle):
@@ -31,7 +31,7 @@ class Motorcycle(Vehicle):
 
     def go(self):
         print("You ride the motorcycle.")
-    
+
     def stop(self):
         print("You stop the motorcycle.")
 
@@ -57,4 +57,3 @@ boat = Boat()
 
 boat.go()
 boat.stop()
-

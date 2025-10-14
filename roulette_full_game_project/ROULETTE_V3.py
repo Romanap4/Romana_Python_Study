@@ -1,4 +1,4 @@
-import random                                                    
+import random
 
 number = random.randint(0, 36)
 
@@ -12,4 +12,3 @@ def roulette(number):
             return number, "green"
 
 print(roulette(number))
-

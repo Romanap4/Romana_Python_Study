@@ -1,4 +1,3 @@
-
 from main_script_1 import *
 
 # print(__name__)
@@ -13,6 +12,3 @@ print("Goodbye!")
 
 if __name__ == '__main__':
     main()
-
-
-

@@ -1,6 +1,5 @@
-# variable scope = where a variable is visible and accessible 
+# variable scope = where a variable is visible and accessible
 # scope resolution = (LEGB) Local -> Enclosed -> Global -> Built-In
-
 
 # LOCAL SCOPE
 # def func1():                                # variables declared within a function have a local scope
@@ -24,8 +23,8 @@
 #     x = 2
 #     print(x)
 
-# ENCLOSED SCOPE 
-# order of operations - use local variables first, and then enclosed 
+# ENCLOSED SCOPE
+# order of operations - use local variables first, and then enclosed
 # if the local scope is eliminated (x = 2), the enclosed scope is used (x = 1)
 
 # def func1():
@@ -34,9 +33,9 @@
 #     def func2():
 #         x = 2
 #         print(x)
-#     func2() 
+#     func2()
 
-# func1()       
+# func1()
 
 # GLOBAL SCOPE  --> outside of any functions
 # if there is no local or enclosed version, global version is used
@@ -62,4 +61,3 @@ def func1():
 e = 3
 
 func1()
-

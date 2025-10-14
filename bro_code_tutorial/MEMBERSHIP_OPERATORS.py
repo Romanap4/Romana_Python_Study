@@ -3,8 +3,7 @@
 #                        1. in
 #                        2. not in
 
-
-#STRINGS 
+#STRINGS
 
 word = "APPLE"
 
@@ -21,7 +20,6 @@ word = "APPLE"
 #     print(f"{letter} was not found")
 # else:
 #     print(f"There is a {letter}")
-
 
 # SETS (LISTS and TUPLES would behave the same)
 
@@ -43,9 +41,9 @@ word = "APPLE"
 
 # DICTIONARIES:
 
-# grades = {"Wednesday": "A", 
-#           "Enid": "B", 
-#           "Pugsley": "C", 
+# grades = {"Wednesday": "A",
+#           "Enid": "B",
+#           "Pugsley": "C",
 #           "Roland": "D"}
 
 # student = input("Enter the name of a student: ")
@@ -61,4 +59,3 @@ if "@" in email and "." in email:
     print("Valid email")
 else:
     print("Invalid email")
-

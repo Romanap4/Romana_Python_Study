@@ -1,4 +1,4 @@
-# typecasting = The process of converting a value of one data type to another 
+# typecasting = The process of converting a value of one data type to another
 #               (string, integer, float, boolean)
 #               Explicit vs Implicit
 
@@ -37,5 +37,5 @@ y = 2.0
 
 x = x / y
 
-print(x)   # x became a float; 
+print(x)   # x became a float;
            # a variable's data type can be converted when you perform certain operations on it (such as arithemtic)

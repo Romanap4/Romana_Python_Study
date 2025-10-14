@@ -8,8 +8,8 @@ questions = ("How many elements are in the periodic table?: ",
 
 options = (("A. 116", "B. 117", "C. 118", "D. 119"),
            ("A. Whale", "B. Crocodile", "C. Elephant", "D. Ostrich"),
-           ("A. Nitrogen", "B. Oxygen", "C. Carbon-Dioxide", "D. Hydrogen"), 
-           ("A. 206", "B. 207", "C. 208", "D. 209"), 
+           ("A. Nitrogen", "B. Oxygen", "C. Carbon-Dioxide", "D. Hydrogen"),
+           ("A. 206", "B. 207", "C. 208", "D. 209"),
            ("A. Mercury", "B. Venus", "C. Earth", "D. Mars"))
 
 answers = ("C", "D", "A", "A", "B")
@@ -50,4 +50,3 @@ print()
 
 score = int(score / len(questions) * 100)
 print(f"Your score is: {score}%")
-

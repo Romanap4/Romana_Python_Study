@@ -12,27 +12,27 @@ class Book:
     # STRING -> return a string representation of the object when we print it directly to the console
     def __str__(self):
         return f"'{self.title}' by {self.author}"
-    
+
     # EQUALS -> compare if two objects are equal
     def __eq__(self, other):
         return self.title == other.title and self.author == other.author
-    
+
     # LESS THAN
     def __lt__(self, other):
         return self.num_pages < other.num_pages
-    
+
     # GREATER THAN
     def __gt__(self, other):
         return self.num_pages > other.num_pages
-    
+
     # ADDITION
     def __add__(self, other):
         return f"{self.num_pages + other.num_pages} pages"
-    
+
     # CONTAINS
     def __contains__(self, keyword):
         return keyword in self.title or keyword in self.author
-    
+
     # GET ITEM
     def __getitem__(self, key):
         if key == "title":
@@ -43,7 +43,6 @@ class Book:
             return self.num_pages
         else:
             return f"Key '{key}' was not found."
-
 
 book1 = Book("Sherlock Holmes", "Sir Arthur Conan Doyle", 1796)
 book2 = Book("Frankenstein", "Mary Shelley", 352)

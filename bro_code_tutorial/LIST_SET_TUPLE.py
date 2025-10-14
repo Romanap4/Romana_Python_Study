@@ -11,7 +11,7 @@
 # print(len(fruits))
 # print("apple" in fruits)            # use the in operator to find if a value is within a collection
 
-# print(fruits[0])                    # you can use the index operator, like with strings  
+# print(fruits[0])                    # you can use the index operator, like with strings
 # print(fruits[:3])
 # print(fruits[::2])
 # print(fruits[::-1])
@@ -48,7 +48,7 @@
 # fruits.add("pineapple")
 # fruits.remove("apple")
 # fruits.pop()                         # pop method removes whatever element is first; it's random
-# fruits.clear()                    
+# fruits.clear()
 
 # print(fruits)
 
@@ -92,8 +92,3 @@ for price in prices:
 
 print()
 print(f"Your total is: ${total}")
-
-
-
-
-

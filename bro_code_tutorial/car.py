@@ -3,7 +3,7 @@ class Car:
         self.model = model
         self.year = year
         self.color = color
-        self.for_sale = for_sale 
+        self.for_sale = for_sale
 
 # METHODS - > identical for each car object
 

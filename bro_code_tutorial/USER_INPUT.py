@@ -10,7 +10,7 @@ print(f"You are {age} years old")
 
 # to use any kind of math with user input, cast it as an integer or floating point number
 
-#EXERCISES 
+#EXERCISES
 
 # mad libs game --> there is a story, users get to submit nouns, verbs and adjectives within the story
 

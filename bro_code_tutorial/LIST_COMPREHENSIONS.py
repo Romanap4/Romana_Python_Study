@@ -17,14 +17,16 @@
 # print(squares)
 
 # fruits = ["apple", "orange", "banana", "coconut"]
-# fruits = [fruit.upper() for fruit in fruits ]           # to make it shorter: ˇ
+# fruits = [fruit.upper() for fruit in fruits]           
+ 
+# to make it shorter:
 
 # fruits = [fruit.upper() for fruit in ["apple", "orange", "banana", "coconut"]]
 
 # print(fruits)
 
 # fruits = ["apple", "orange", "banana", "coconut"]
-# fruit_chars = [fruit[0] for fruit in fruits ]  
+# fruit_chars = [fruit[0] for fruit in fruits ]
 
 # print(fruit_chars)
 

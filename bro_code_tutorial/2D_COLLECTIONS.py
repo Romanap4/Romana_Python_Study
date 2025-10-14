@@ -5,12 +5,10 @@ fruits =     ["apple", "oragne", "banana", "coconut"]
 vegetables = ["celery", "carrots", "potatoes"]
 meats =      ["chicken", "fish", "turkey"]
 
-
 # groceries = [["apple", "oragne", "banana", "coconut"],
 #              ["celery", "carrots", "potatoes"],
 #              ["chicken", "fish", "turkey"]]
 groceries = [fruits, vegetables, meats]
-
 
 # print(groceries[1][2])       # works similarly to coordinates, you need the index of the list and the element within the list
 
@@ -33,4 +31,3 @@ for row in num_pad:
     for num in row:
         print(num, end=" ")
     print()
-

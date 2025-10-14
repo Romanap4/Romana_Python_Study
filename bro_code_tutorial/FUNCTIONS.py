@@ -1,4 +1,4 @@
-# function = a block of reusable code 
+# function = a block of reusable code
 #            place () after the function name to invoke it
 
 # def happy_birthday(name, age):                                  # defining a function (def and a unique function name)
@@ -8,8 +8,8 @@
 #     print()
 
 # happy_birthday()                                                # invoking a function
-# happy_birthday("Manyan", 34)                                    # using arguments to send data directly to a function (values or variables)  
-# happy_birthday("DK", 31)                                        # positional arguments?
+# happy_birthday("Manyan", 34)                                    # using arguments to send data directly to a function (values or variables)
+# happy_birthday("Wednesday", 15)                                 # positional arguments
 # happy_birthday("Chan", 28)                                      # you need a matching set of arguments and parameters; order matters
 
 # def display_invoice(username, amount, due_date):
@@ -46,9 +46,6 @@ def create_name(first, last):
     last = last.capitalize()
     return first + " " + last
 
-full_name = create_name("manyan", "blabla") 
+full_name = create_name("manyan", "blabla")
 
 print(full_name)
-
-
-
