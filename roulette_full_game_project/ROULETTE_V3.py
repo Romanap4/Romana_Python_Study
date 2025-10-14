@@ -1,4 +1,4 @@
-import random                                                     
+import random                                                    
 
 number = random.randint(0, 36)
 

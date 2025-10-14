@@ -1,42 +1,23 @@
-# VARIABLES LIST:
-
-straight_up_bet = 0
-split_bet = 0
-corner_bet = 0
-street_bet = 0
-six_line_bet = 0
-red_color_bet = 0
-black_color_bet = 0
-even_number_bet = 0
-odd_number_bet = 0
-big_number_bet = 0
-small_number_bet = 0
-first_column_bet = 0
-second_column_bet = 0
-third_column_bet = 0
-first_dozen_bet = 0
-second_dozen_bet = 0
-third_dozen_bet = 0
-
-straight_up_payout = 0
-split_payout = 0
-corner_payout = 0
-street_payout = 0
-six_line_payout = 0
-red_color_payout = 0
-black_color_payout = 0
-even_number_payout = 0
-odd_number_payout = 0
-big_number_payout = 0
-small_number_payout = 0
-first_column_payout = 0
-second_column_payout = 0
-third_column_payout = 0
-first_dozen_payout = 0
-second_dozen_payout = 0
-third_dozen_payout = 0
-
 class Bet:
+
+    straight_up_bet = 0
+    split_bet = 0
+    corner_bet = 0
+    street_bet = 0
+    six_line_bet = 0
+    red_color_bet = 0
+    black_color_bet = 0
+    even_number_bet = 0
+    odd_number_bet = 0
+    big_number_bet = 0
+    small_number_bet = 0
+    first_column_bet = 0
+    second_column_bet = 0
+    third_column_bet = 0
+    first_dozen_bet = 0
+    second_dozen_bet = 0
+    third_dozen_bet = 0
+
     class Bet_inside_bets:
         def __init__(self, straight_up_bet, split_bet, corner_bet, street_bet, six_line_bet):
             self.straight_up_bet = straight_up_bet
@@ -61,7 +42,28 @@ class Bet:
             self.second_dozen_bet = second_dozen_bet
             self.third_dozen_bet = third_dozen_bet
 
+total_bet = 0
+
 class Payout:
+
+    straight_up_payout = 0
+    split_payout = 0
+    corner_payout = 0
+    street_payout = 0
+    six_line_payout = 0
+    red_color_payout = 0
+    black_color_payout = 0
+    even_number_payout = 0
+    odd_number_payout = 0
+    big_number_payout = 0
+    small_number_payout = 0
+    first_column_payout = 0
+    second_column_payout = 0
+    third_column_payout = 0
+    first_dozen_payout = 0
+    second_dozen_payout = 0
+    third_dozen_payout = 0
+
     class Payout_inside_bets:
         def __init__(self, straight_up_payout, split_payout, corner_payout, street_payout, six_line_payout):
             self.straight_up_payout = straight_up_payout
@@ -86,3 +88,6 @@ class Payout:
             self.first_dozen_payout = first_dozen_payout
             self.second_dozen_payout = second_dozen_payout
             self.third_dozen_payout = third_dozen_payout
+
+total_payout = 0
+print(total_payout)
