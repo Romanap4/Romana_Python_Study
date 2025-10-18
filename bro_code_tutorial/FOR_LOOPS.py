@@ -1,7 +1,7 @@
 # for loops = iterate a block of code a fixed number of times.
 #             You can iterate over a range, string, sequence, etc.
 
-#range function; the second number is exclusive
+# range function; the second number is exclusive
 # for x in range(1, 11):
 #     print(x)
 

@@ -1,25 +1,25 @@
 # if = do some code only IF some condition is True
 #      Else do something Else
 
-#age = int(input("Enter your age: "))       # be careful with the order of the statements
+# age = int(input("Enter your age: "))       # be careful with the order of the statements
 
-#if age >= 100:
-#    print("You are too old to sign up")
-#elif age >= 18:
-#    print("You are now signed up")
-#elif age < 0:
-#    print("You haven't been born yet")
-#else:
-#    print("You must be 18+ to sign up")
+# if age >= 100:
+#     print("You are too old to sign up")
+# elif age >= 18:
+#     print("You are now signed up")
+# elif age < 0:
+#     print("You haven't been born yet")
+# else:
+#     print("You must be 18+ to sign up")
 
-#response = input("Would you like food? (Y/N): ")
+# response = input("Would you like food? (Y/N): ")
 
-#if response == "Y":                          # use == to check if two values are equal, comparison operator
-#    print("Have some food!")                 # = is the assignment operator
-#else:
-#    print("No food for you!")
+# if response == "Y":                          # use == to check if two values are equal, comparison operator
+#     print("Have some food!")                 # = is the assignment operator
+# else:
+#     print("No food for you!")
 
-#name = input("Enter your name: ")
+# name = input("Enter your name: ")
 
 # if name == "":
 #     print("You did not type in your name!")
