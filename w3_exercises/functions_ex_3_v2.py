@@ -1,4 +1,4 @@
-# write a function to mutiply all numbers in a list
+# write a function to mutiply all numbers in a list --> version 2
 
 numbers = [3, 9, -8, 4]
 

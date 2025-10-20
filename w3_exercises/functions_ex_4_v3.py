@@ -1,4 +1,4 @@
-# write a program to reverse a string
+# write a program to reverse a string --> version 3
 
 string = "I love coffee!"
 
