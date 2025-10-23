@@ -1,4 +1,5 @@
 # write a function that accepts a string and counts the number of upper and lower case letters --> version 1
+# SUM EXISTS!
 
 string = input("Enter a string to check the number of lowercase and uppercase letters: ")
 
