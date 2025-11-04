@@ -13,6 +13,7 @@ options = (("A. 116", "B. 117", "C. 118", "D. 119"),
            ("A. Mercury", "B. Venus", "C. Earth", "D. Mars"))
 
 answers = ("C", "D", "A", "A", "B")
+# using a list because we will be appending guesses
 guesses = []
 score = 0
 question_num = 0
@@ -33,6 +34,7 @@ for question in questions:
         print(f"{answers[question_num]} is the correct answer")
 
     question_num += 1
+# question number needs to be incremented so that the corresponding options would show
 
 print("---------------------")
 print("       RESULTS       ")

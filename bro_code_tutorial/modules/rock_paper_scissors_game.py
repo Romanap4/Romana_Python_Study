@@ -2,8 +2,10 @@
 
 import random
 
+# we are not going to be changing the option, so a tuple is a better choice, since it's faster
 options = ("rock", "paper", "scissors")
-running = True                                    # using a boolean variable to make it easier to find the break statement
+running = True
+# using a boolean variable to make it easier to find the break statement by highlighting the variable
 
 while running:
 
@@ -27,9 +29,10 @@ while running:
     else:
         print("You lose!")
 
-    # play_again = input("Play again? (y/n): ").lower()  # too many variabes; there is another way
+    # play_again = input("Play again? (y/n): ").lower()
     # if not play_again == "y":
     #     running = False
+    # to avoid creating another variable, there is another way:
 
     if not input("Play again? (y/n): ").lower() == "y":
         running = False

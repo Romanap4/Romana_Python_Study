@@ -2,7 +2,7 @@
 
 #               and = checks two or more conditions if True
 #                or = checks if at least one condition is True
-#               not = True if condition is False, and vice versa
+#               not = True if condition is False, and vice versa (changes the result of a condition)
 
 # temp = 25
 
@@ -21,7 +21,9 @@
 temp = 20
 sunny = True
 
-if not sunny:                 # you can use just the boolean, without the equation
+# you can use just the boolean, without the equation (if sunny == True:)
+# the not logical operator will flip the result (change True to False and vice versa)
+if not sunny:
     print("It is cloudy outside")
 else:
     print("It is sunny outside")

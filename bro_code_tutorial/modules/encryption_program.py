@@ -1,11 +1,14 @@
 import random
-import string                             # importing the string module
+import string
+# importing the string module
 
-# importing the punctuation constant, the digits constant, and the letters? constant:
+# importing the punctuation constant, the digits constant, and the ascii_letters constant:
 chars = " " + string.punctuation + string.digits + string.ascii_letters
 # string.whitespace --> adds spaces; includes things like carriage return and would warp the results
-chars = list(chars)           # typecasting as a list
-key = chars.copy()            # creating a copy of the list
+chars = list(chars)
+# typecasting as a list where each character is an individual element
+key = chars.copy()
+# creating a copy of the list to serve as a key; the key will be shuffled
 
 random.shuffle(key)
 
@@ -14,8 +17,11 @@ print(f"key:   {key}")
 
 # ENCRYPT
 
-plain_text = input("Enter a message to encrypt: ")            # original message
-cipher_text = ""                                              # encrypted message
+# original message --> plain_text
+# encrypted message --> cipher_text
+
+plain_text = input("Enter a message to encrypt: ")
+cipher_text = ""
 
 for letter in plain_text:
     index = chars.index(letter)

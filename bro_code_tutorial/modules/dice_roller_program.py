@@ -1,15 +1,17 @@
 import random
 
-# print("\u25CF \u250C \u2500 \u2510 \u2502 \u2514 \u2518")   # entering unicode characters in Python
-                                                              # print the characters, copy into a comment and the line above can be deleted
+# print("\u25CF \u250C \u2500 \u2510 \u2502 \u2514 \u2518")
+# entering unicode characters in Python
+# print the characters, copy into a comment and the line above can be deleted
 # ● ┌ ─ ┐ │ └ ┘
+
 # building ASCII art:
 
-"┌─────────┐"
-"│         │"
-"│         │"
-"│         │"
-"└─────────┘"
+# "┌─────────┐"
+# "│         │"
+# "│         │"
+# "│         │"
+# "└─────────┘"
 
 dice_art = {
     1: ("┌─────────┐",
@@ -51,6 +53,7 @@ num_of_dice = int(input("How many dice?:  "))
 for die in range(num_of_dice):
     dice.append(random.randint(1, 6))
 
+# the easiest way to display the dice is using nested for loops
 # for die in range(num_of_dice):
 #     for line in dice_art.get(dice[die]):
 #         print(line)
@@ -59,8 +62,9 @@ for die in range(num_of_dice):
 
 for line in range(5):
     for die in dice:
-        print(dice_art.get(die)[line], end="")       #????? figure it out later - figured it out right away, it was one wrong digit T_T
+        print(dice_art.get(die)[line], end="")
     print()
+# ????? figure it out later - figured it out right away, it was one wrong digit T_T
 
 for die in dice:
     total += die

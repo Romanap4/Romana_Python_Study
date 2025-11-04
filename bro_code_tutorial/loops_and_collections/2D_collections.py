@@ -5,14 +5,20 @@ fruits =     ["apple", "oragne", "banana", "coconut"]
 vegetables = ["celery", "carrots", "potatoes"]
 meats =      ["chicken", "fish", "turkey"]
 
+# inner lists don't need a name:
 # groceries = [["apple", "oragne", "banana", "coconut"],
 #              ["celery", "carrots", "potatoes"],
 #              ["chicken", "fish", "turkey"]]
 groceries = [fruits, vegetables, meats]
 
-# print(groceries[1][2])       # works similarly to coordinates, you need the index of the list and the element within the list
+# print(groceries[0])
+# returns an entire row, the list at that index
 
-# for collection in groceries: # a single for loop iterates over the rows; use a nested loop to iterate over the elements
+# works similarly to coordinates, you need the index of the list and the element within the list
+# print(groceries[1][2])
+
+# ITERATING --> a single for loop iterates over the rows; use a nested loop to iterate over the elements
+# for collection in groceries:
 #     print(collection)
 
 # for collection in groceries:
@@ -20,7 +26,7 @@ groceries = [fruits, vegetables, meats]
 #         print(food, end=" ")
 #     print()
 
-# EXERCISE - making a phone keyboard
+# EXERCISE - making a phone keypad
 
 num_pad = ((1, 2, 3),
            (4, 5, 6),
