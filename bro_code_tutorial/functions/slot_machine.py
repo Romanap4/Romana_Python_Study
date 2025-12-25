@@ -9,12 +9,15 @@ def spin_row():
     symbols = ["🍒", "🍉", "🍋", "🔔", "⭐"]
 
     return [random.choice(symbols) for _ in range(3)]
+# using _ as a placeholder --> for every iteration in range(3), return a random symbol
 
-#     results = []                                       # alternative to a list comprehension
+# alternative to a list comprehension
+#     results = []
 #     for symbol in range(3):
 #         results.append(random.choice(symbols))
 #     return results
 
+# using the join method, we are taking our iterable (list) and joining each character by a chosen character/s (" | ")
 def print_row(row):
     print("+++++++++++++")
     print(" | ".join(row))
@@ -49,7 +52,8 @@ def main():
 
         if not bet.isdigit():
             print("Please enter a valid number.")
-            continue                              # continue statement skips the current iteration of the loop and starts from the beginning
+            continue
+# continue statement skips the current iteration of the loop and starts from the beginning
 
         bet = int(bet)
 

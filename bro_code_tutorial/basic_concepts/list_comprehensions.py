@@ -10,21 +10,25 @@
 
 # doubles = [x * 2 for x in range(1, 11)]
 # triples = [y * 3 for y in range(1, 11)]
-# squares = [z ** 2 for z in range (1, 11)]               # or z * z
+# squares = [z ** 2 for z in range (1, 11)]
+# or z * z
 
 # print(doubles)
 # print(triples)
 # print(squares)
 
+# STRINGS
 # fruits = ["apple", "orange", "banana", "coconut"]
+# create a new list (uppercase.fruits) or just reassign
 # fruits = [fruit.upper() for fruit in fruits]           
  
-# to make it shorter:
+# to make it shorter; it's more difficult to read:
 
 # fruits = [fruit.upper() for fruit in ["apple", "orange", "banana", "coconut"]]
 
 # print(fruits)
 
+# making a new list with only the first characters of each string
 # fruits = ["apple", "orange", "banana", "coconut"]
 # fruit_chars = [fruit[0] for fruit in fruits ]
 
@@ -33,8 +37,10 @@
 # numbers = [1, -2, 3, -4, 5, -6, 8, -7]
 # positive_nums = [num for num in numbers if num >= 0]
 # negative_nums = [num for num in numbers if num < 0]
-# even_nums = [num for num in numbers if num % 2 == 0]     # check if the number is even
-# odd_nums = [num for num in numbers if num % 2 == 1]      # check if the number is odd
+# checking if the number is even:
+# even_nums = [num for num in numbers if num % 2 == 0]
+# checking if the number is odd:
+# odd_nums = [num for num in numbers if num % 2 == 1]
 
 # print(positive_nums)
 # print(negative_nums)

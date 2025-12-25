@@ -1,10 +1,11 @@
 # Hangman in Python
-from wordslist import words
+from hangman_wordslist import words
 import random
 
-words = ("apple", "orange", "banana", "coconut", "pineapple")
+# words = ("apple", "orange", "banana", "coconut", "pineapple")
 
-# dictionary of key: ()
+# dictionary of key: () --> key is the number of incorrect guesses; value is a tuple with ASCII art
+# a single backslash (\) is an escape sequence within a string; double backslash is necessary (\\) to print a backslash
 hangman_art = {0: ("   ",
                    "   ",
                    "   "),
@@ -27,7 +28,8 @@ hangman_art = {0: ("   ",
                    "/|\\",
                    "/ \\")}
 
-# for line in hangman_art[6]:           # checking if the dictionary is working
+# checking if the dictionary is working
+# for line in hangman_art[6]:
 #     print(line)
 
 def display_man(wrong_guesses):
@@ -46,8 +48,9 @@ def main():
     answer = random.choice(words)
     hint = ["_"] * len(answer)
     wrong_guesses = 0
-    guessed_letters = set()               # in Python, you have to use the set function to create an empty set
+    guessed_letters = set()
     is_running = True
+# in Python, you have to use the set function to create an empty set; you can't create an empty set with just a set of parenthesis
 
     while is_running:
         display_man(wrong_guesses)

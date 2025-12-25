@@ -9,6 +9,8 @@ word = "APPLE"
 
 # letter = input("Guess a letter in the secret word: ")
 
+# IN MEMBERSHIP OPERATOR tests if a value or a variable is found within a sequence and returns True or False
+
 # if letter in word:
 #     print(f"There is a {letter}")
 # else:
@@ -48,6 +50,7 @@ word = "APPLE"
 
 # student = input("Enter the name of a student: ")
 
+# to get the value at a given key, take the dictionary of grades at the index of student
 # if student in grades:
 #     print(f"{student}'s grade is {grades[student]}")
 # else:

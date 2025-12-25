@@ -1,3 +1,5 @@
+# declare whatever you like within this module
+
 pi = 3.14159
 
 def square(x):

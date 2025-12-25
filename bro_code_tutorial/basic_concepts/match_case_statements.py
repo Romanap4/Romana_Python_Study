@@ -2,7 +2,11 @@
 #                                Execute some code if a value matches a 'case'
 #                                Benefits: cleaner and syntax is more readable
 
-# def day_of_week(day):                     # enclosing if, elif statements in a match-case block
+# enclosing if, elif statements in a match-case block
+# the case is the value we are examining (day)
+# examining the value of day against matching cases
+# case_ functions as an else statement
+# def day_of_week(day):
 #     match day:
 #         case 1:
 #             return "It is Sunday"
@@ -43,8 +47,8 @@
 #             return False
 
 # to make it shorter:
-
-def is_weekend(day):                         # | = "or" logical operator
+# | => "or" logical operator
+def is_weekend(day):                         
     match day:
         case "Saturday" | "Sunday":
             return True

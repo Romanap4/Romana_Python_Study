@@ -41,7 +41,8 @@ def withdraw(balance):
 
 def main():
     balance = 0
-    is_running = True                                         # if this is set to False, we exit the program
+    is_running = True
+# if this is set to False, we exit the program
 
     while is_running:
         print("***********************")

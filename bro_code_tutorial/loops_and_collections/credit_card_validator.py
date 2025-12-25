@@ -1,4 +1,5 @@
 # Python credit card validator program
+# there are test credit card account numbers available online
 
 # 1. Remove any '-' or ' '
 # 2. Add all digits in the odd places from right to left
@@ -12,19 +13,23 @@ sum_even_digits = 0
 total = 0
 
 # Step 1
+# keeping the input as a string for now, no typecasting
 card_number = input("Enter a credit card number: ")
 card_number = card_number.replace("-", "")
 card_number = card_number.replace(" ", "")
 card_number = card_number[::-1]
-# print(card_number)                                        # checking if the above code works
+# checking if the above code works:
+# print(card_number)
 
 # Step 2
 for x in card_number[::2]:
-    sum_odd_digits += int(x)                                # x was a string --> unsupported operand type
+    sum_odd_digits += int(x)
+# x was a string --> unsupported operand type
 
 # Step 3
+# iterating over every second digit, starting at the second digit with the index [1]
 for x in card_number[1::2]:
-    x = int(x * 2)
+    x = int(x) * 2
     if x >= 10:
         sum_even_digits += (1 + (x % 10))
     else:

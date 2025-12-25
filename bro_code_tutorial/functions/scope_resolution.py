@@ -1,8 +1,10 @@
 # variable scope = where a variable is visible and accessible
-# scope resolution = (LEGB) Local -> Enclosed -> Global -> Built-In
+# scope resolution = (LEGB rule) Local -> Enclosed -> Global -> Built-In
 
 # LOCAL SCOPE
-# def func1():                                # variables declared within a function have a local scope
+# variables declared within a function have a local scope
+# functions can't "see" inside of other functions; that's why we pass arguments to functions, so that they would be "aware" of them
+# def func1():
 #     a = 1
 #     print(a)
 
