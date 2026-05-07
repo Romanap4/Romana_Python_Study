@@ -5,11 +5,13 @@ import random
 to_do_list = []
 task = 0
 
+# ask the user how many tasks they want to enter and use that for while loop repetiton
+
 def create_to_do_list():
     
     adding_tasks = True
     while adding_tasks:
-        task = input("Add a task or a chore to your to do list (q to quit): ").lower()
+        task = input("Add a task or a chore to your to do list (q to quit): ").lower().strip()
         to_do_list.append(task)
         if task == "q":
             adding_tasks = False
@@ -50,14 +52,15 @@ def create_done_list():
     for chosen_task in done_list:
         print(f"[✓] {chosen_task}")
 
+def award_points():
+    pass
+
 def main():
     create_to_do_list()
-    task_selection()
-    create_done_list()
-    
-    unfinished_tasks = input("Would you like another task? (y/n): ").lower()
 
-    while unfinished_tasks == "y":
+    # this is the outer loop
+
+    while to_do_list:
         task_selection()
         create_done_list()
 
@@ -65,16 +68,21 @@ def main():
         print(" +++ Well done! I'm so proud of you! +++ ")
         print()
 
-        unfinished_tasks = input("Would you like another task? (y/n): ").lower()
+        # this is the inner loop
 
-        if unfinished_tasks == "n" or to_do_list == []:
-            break
-        else:
+        while True:
+            unfinished_tasks = input("Would you like a different task (y/n)?: ").lower().strip()
+            if unfinished_tasks in ("y", "n"):
+                break
             print("Please enter y or n!")
 
+        if unfinished_tasks == "n":
+                break
+
     print()
-    print(" +++ Well done! I'm so proud of you! +++ ")
+    print(" +++ All done or you chose to stop. Great job! +++ ")
     print()
+    
 
 if __name__ == '__main__':
     main()
