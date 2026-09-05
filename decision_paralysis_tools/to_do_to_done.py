@@ -1,6 +1,7 @@
 # chores and tasks input
 
 import random
+import dice_ascii_art
 
 to_do_list = []
 task = 0
